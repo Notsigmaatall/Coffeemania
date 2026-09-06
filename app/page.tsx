@@ -1,6 +1,8 @@
 import { client } from "@/sanity/lib/client";
 import { urlFor } from "@/sanity/lib/image";
 
+export const dynamic = "force-dynamic";
+
 type Dish = {
   _id: string;
   name: string;
